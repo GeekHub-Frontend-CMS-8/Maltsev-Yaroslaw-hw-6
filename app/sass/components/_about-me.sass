@@ -1,0 +1,38 @@
+.about-me-desc
+	@extend %main-text
+	text-transform: none
+	max-width: 95%;
+.section-container-img
+	max-width: 570px
+	img 
+		width: 100%
+.about-me-hr
+	width: 60px
+	margin: 0
+	hr
+		margin: 0
+.about-me
+	.title
+		text-align: left
+		max-width: 75%
+.about-me-btn
+	height: 50px
+.up-button-img
+	opacity: 0.4
+	width: 16px
+.up-button
+	padding: 10px
+	position: fixed
+	bottom: 20%
+	right: 5%
+	border: $border transparent
+	border-radius: 25%
+	background-color: transparent $main-background
+	transform: rotate(180deg)
+	&:hover
+		transition: 1s
+		border: $border $main-color
+		background-color: $main-background
+	&:hover .up-button-img
+		transition: 1s
+		opacity: 1;

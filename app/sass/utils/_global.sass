@@ -1,0 +1,63 @@
+@import 'utils/_mixins.sass'
+@import 'base/_font-and-colors.sass'
+.wrapper
+	max-width: 1170px
+	margin: 0 auto
+	padding: 30px
+li
+	list-style: none
+a
+	text-decoration: none
+
+button
+	@extend %main-text;
+	width: 160px
+	height: 50px
+	background: transparent
+	border: $border #4d4d4d
+	&:hover
+		transition: 0.5s
+		background: $main-background
+		border: $border $main-background
+		box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1)
+	a
+		color: $main-color
+.title
+	margin: 0
+	text-align: center
+	opacity: 0.8
+	+text-properties(50px, $main-font, $main-color, 900, $main-transform)
+hr
+	margin-top: 120px
+	width: 60px
+	height: 4px
+	background-color: $headlines
+	opacity: 0.6
+
+.section-container
+	+flex-align(center)
+	margin-top: 60px
+.section-container-text
+	+flex-flow(column)
+	margin: 0 auto
+	max-width: 600px
+.section-container-img
+	display: flex
+	img
+		width: 570px
+.img-desc
+	+text-properties($img-text-desc, $main-font, $main-color, 700, none)
+.img-with-desc
+	margin-bottom: 30px;
+	height: 100%;
+	padding: 0px
+	+flex-align(flex-end)
+.img-down-desc
+	margin: 0
+	+flex-all(center, center, column)
+input
+	@extend %main-text
+	color: $headlines
+textarea
+	@extend %main-text
+	color: $headlines

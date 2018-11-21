@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css?family=Asap");
+@import url("https://fonts.googleapis.com/css?family=Asap");
+button, input, textarea, .menu-title, .about-me-desc, .employees-desc, .say-hello-form .input-block input, .say-hello-form .input-block textarea {
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  width: 160px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid #4d4d4d; }
+  button:hover {
+    transition: 0.5s;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1); }
+  button a {
+    color: #4d4d4d; }
+
+.title {
+  margin: 0;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 50px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+hr {
+  margin-top: 120px;
+  width: 60px;
+  height: 4px;
+  background-color: #212121;
+  opacity: 0.6; }
+
+.section-container {
+  display: flex;
+  align-items: center;
+  margin-top: 60px; }
+
+.section-container-text {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  max-width: 600px; }
+
+.section-container-img {
+  display: flex; }
+  .section-container-img img {
+    width: 570px; }
+
+.img-desc {
+  font-size: 24px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 700;
+  text-transform: none; }
+
+.img-with-desc {
+  margin-bottom: 30px;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  align-items: flex-end; }
+
+.img-down-desc {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column; }
+
+input {
+  color: #212121; }
+
+textarea {
+  color: #212121; }
+
+button, input, textarea, .menu-title, .about-me-desc, .employees-desc, .say-hello-form .input-block input, .say-hello-form .input-block textarea {
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.home {
+  background: url("../img/bg_element_.png") no-repeat;
+  background-size: cover; }
+
+.header-icon {
+  display: flex;
+  align-items: center; }
+
+menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: none;
+  flex-flow: wrap;
+  width: 1025px; }
+
+.menu-box {
+  margin-left: 15px;
+  display: flex;
+  padding: 5px;
+  border: transparent; }
+  .menu-box:hover {
+    border-bottom: 2px solid #4d4d4d;
+    transition: 0.8s; }
+  .menu-box:hover .menu-title {
+    transition: 0.8s;
+    opacity: 0.5; }
+
+.home-container-text h1 {
+  margin: 0;
+  font-size: 80px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-transform: none; }
+
+.home-container-text h4 {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 20px;
+  font-family: "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-transform: none; }
+
+.home-btn {
+  margin-right: 30px; }
+
+.home-btn-block {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row; }
+
+.about-me-desc {
+  text-transform: none;
+  max-width: 95%; }
+
+.section-container-img {
+  max-width: 570px; }
+  .section-container-img img {
+    width: 100%; }
+
+.about-me-hr {
+  width: 60px;
+  margin: 0; }
+  .about-me-hr hr {
+    margin: 0; }
+
+.about-me .title {
+  text-align: left;
+  max-width: 75%; }
+
+.about-me-btn {
+  height: 50px; }
+
+.up-button-img {
+  opacity: 0.4;
+  width: 16px; }
+
+.up-button {
+  padding: 10px;
+  position: fixed;
+  bottom: 20%;
+  right: 5%;
+  border: 1px solid transparent;
+  border-radius: 25%;
+  background-color: transparent #ffffff;
+  transform: rotate(180deg); }
+  .up-button:hover {
+    transition: 1s;
+    border: 1px solid #4d4d4d;
+    background-color: #ffffff; }
+  .up-button:hover .up-button-img {
+    transition: 1s;
+    opacity: 1; }
+
+.services {
+  background-color: #f6f6f6; }
+  .services ul {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-flow: row wrap; }
+    .services ul li {
+      margin-top: 80px;
+      margin-right: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      max-width: 310px;
+      min-width: 30%;
+      text-align: center; }
+      .services ul li h4 {
+        margin: 0;
+        width: 100%; }
+
+.skill-img {
+  margin-top: 60px; }
+  .skill-img img {
+    width: 100%; }
+
+.wrapper-portfolio {
+  text-align: center; }
+
+.portfolio {
+  background-color: #f6f6f6; }
+  .portfolio ul {
+    margin-top: 15px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-flow: row wrap; }
+
+.portfolio-img {
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 0px;
+  max-width: 300px;
+  min-width: 30%; }
+  .portfolio-img img {
+    width: 100%; }
+  .portfolio-img:hover {
+    box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15);
+    transition: 0.7s; }
+
+.portfolio-img:hover .hover-img, .portfolio-img:hover .link-icon {
+  transition: 0.7s;
+  opacity: 1; }
+
+.link-icon {
+  padding: 20px;
+  position: relative;
+  bottom: 50%;
+  opacity: 0;
+  border: 1px solid #ffffff;
+  background-color: #ffffff; }
+  .link-icon .hover-img {
+    opacity: 0;
+    width: 16px;
+    transform: rotate(-90deg); }
+
+.employees {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 120px; }
+
+.employee {
+  margin-top: 60px;
+  padding: 85px 55px 40px 120px;
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  border: 1px solid #212121; }
+  .employee .section-container-text {
+    padding: 0px; }
+
+.employees-name {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 32px;
+  font-family: "Asap", sans-serif;
+  color: #212121;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.employees-subtitle {
+  margin: 0;
+  margin-top: 10px;
+  opacity: 0.9;
+  font-size: 12.30769px;
+  font-family: "Asap", sans-serif;
+  color: #212121;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-style: italic; }
+
+.employees-desc {
+  margin: 0;
+  margin-top: 20px;
+  opacity: 0.6; }
+
+.employees-img {
+  display: flex;
+  max-width: 160px; }
+
+.square-button-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+
+.funfact {
+  background-color: #f6f6f6; }
+  .funfact ul {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    flex-flow: row wrap;
+    margin-bottom: 65px; }
+    .funfact ul li {
+      margin: 0px;
+      margin-right: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      max-width: 200px;
+      min-width: 15%;
+      text-align: center; }
+
+.funfact-number {
+  font-size: 32px;
+  font-family: "Asap Medium" "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 700;
+  text-transform: normal; }
+
+.funfact-name {
+  margin: 0;
+  font-size: 22px;
+  font-family: "Asap - Regular" "Asap", sans-serif;
+  color: #4d4d4d;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.say-hello-container {
+  background: url("../img/contact_bg.png") no-repeat;
+  background-size: cover; }
+
+.say-hello-hr {
+  background-color: #ffffff; }
+
+.say-hello-title {
+  color: #ffffff; }
+
+.say-hello-form {
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 0px;
+  max-width: 770px;
+  height: 100%;
+  text-align: center; }
+  .say-hello-form .input-block {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0; }
+    .say-hello-form .input-block input {
+      margin-bottom: 30px;
+      width: 366px;
+      height: 60px;
+      color: #212121; }
+    .say-hello-form .input-block #name {
+      margin-right: 30px; }
+    .say-hello-form .input-block textarea {
+      width: 100%;
+      height: 210px;
+      color: #212121; }
+
+.airplane {
+  width: 15px;
+  margin-left: 5px; }
+
+footer {
+  margin-top: 60px;
+  border-top: 1px solid #ffffff; }
+  footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center; }
+    footer ul li {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px; }
+      footer ul li:hover {
+        transition: 0.3s;
+        background-color: #0985bf; }
+    footer ul .text-align {
+      margin-left: calc(50% - 300px);
+      font-size: 16px;
+      font-family: "Asap", sans-serif;
+      color: white;
+      font-weight: 500;
+      text-transform: none; }
+
+.twitter img {
+  width: 15px; }

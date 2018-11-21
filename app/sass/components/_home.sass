@@ -1,0 +1,36 @@
+.home
+	background: url('../img/bg_element_.png') no-repeat
+	background-size: cover
+.header-icon
+	+flex-align(center)
+
+menu
+	+flex-all(flex-end, none, wrap)
+	width: 1170-60-85 + px
+.menu-box
+	margin-left: 15px
+	display: flex
+	padding: 5px;
+	border: transparent
+	&:hover
+		border-bottom:  2px solid $main-color
+		transition: 0.8s
+	&:hover .menu-title
+		//text-transform: capitalize
+		transition: 0.8s
+		opacity: 0.5
+.menu-title
+	@extend %main-text
+.home-container-text
+	h1
+		margin: 0
+		+text-properties(80px, $main-font, $main-color, $main-weight, none)
+	h4
+		margin: 0
+		opacity: 0.6
+		+text-properties(20px, $main-font, $main-color, $main-weight, none)
+.home-btn
+	margin-right: 30px
+.home-btn-block
+	margin-top: 30px
+	+flex-flow(row)

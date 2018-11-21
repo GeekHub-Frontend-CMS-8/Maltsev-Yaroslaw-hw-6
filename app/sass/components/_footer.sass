@@ -1,0 +1,22 @@
+footer
+	margin-top: 60px
+	border-top: $border $main-background
+	ul
+		+flex-flow(row wrap)
+		text-align: center
+		li
+			background-color: $main-background
+			+flex-all(center, center, row wrap)
+			margin-right: 10px
+			width: 30px
+			height: 30px
+			&:hover
+				transition: 0.3s
+				background-color: #0985bf
+		.text-align
+			margin-left: calc(50% - 300px)
+			+text-properties($main-font-size, $main-font, white, $main-weight, none)
+
+.twitter
+	img
+		width: 15px

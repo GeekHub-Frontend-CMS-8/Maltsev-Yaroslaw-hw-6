@@ -1,0 +1,34 @@
+.employees
+	+flex-justify(center)
+	width: 100%
+	margin-bottom: 120px
+.employee
+	margin-top: 60px
+	padding: 85px 55px 40px 120px;
+	+flex-align(center)
+	flex-flow: wrap
+	border: $border $headlines
+	.section-container-text
+		padding: 0px
+.employees-name
+	margin: 0
+	opacity: 0.9
+	+text-properties($main-font-size*2, $main-font, $headlines, $main-weight*1.6, $main-transform)
+.employees-subtitle
+	margin: 0
+	margin-top: 10px
+	opacity: 0.9
+	+text-properties($main-font-size/1.3,$main-font, $headlines, $main-weight*1.6, $main-transform)
+	font-style: italic
+.employees-desc
+	@extend %main-text
+	margin: 0
+	margin-top: 20px
+	opacity: 0.6
+.employees-img
+	display: flex
+	max-width: 160px
+.square-button-block
+	width: 100%
+	+flex-justify(center)
+	margin-top: 40px;

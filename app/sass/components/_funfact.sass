@@ -1,0 +1,17 @@
+.funfact
+	background-color: $secondary-background
+	ul
+		+flex-all(center, normal, row wrap)
+		margin-bottom: 65px;
+		li
+			margin: 0px
+			margin-right: 70px
+			+flex-all(center, center, column)
+			max-width: 200px
+			min-width: 15%
+			text-align: center
+.funfact-number
+	+text-properties($main-font-size * 2,"Asap Medium" $main-font, $main-color, $main-weight*1.4, normal)
+.funfact-name
+	margin: 0
+	+text-properties(22px, "Asap - Regular" $main-font, $main-color, $main-weight, $main-transform)
